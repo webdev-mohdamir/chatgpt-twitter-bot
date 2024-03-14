@@ -1,4 +1,3 @@
-```markdown
 # Web Development Tips Twitter Bot
 
 This Node.js script leverages the OpenAI API to generate Twitter posts with useful tips for web developers and designers. It also utilizes the Twitter API to post the generated tweets automatically.
@@ -33,17 +32,21 @@ TWITTER_ACCESS_SECRET=your_twitter_access_secret
 4. Modify the `prompt` variable in the script to tailor the generated tweets according to your preference.
 
 ## Usage
+
 Run the script using Node.js:
 
 ```bash
-node index.js
+node index.js.js
 ```
+
 The script will generate a tweet with tips for web developers and designers based on the provided prompt and post it on Twitter using your account credentials.
 
 ## Customization
+
 Feel free to modify the prompt in the script to generate tweets tailored to different topics or audiences related to web development and design.
 
 ## Note
+
 In case of any errors during tweet generation or posting, appropriate error messages will be logged.
 
 Enjoy sharing helpful tips and tricks with the web development community through Twitter!
